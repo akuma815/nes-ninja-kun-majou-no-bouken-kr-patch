@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "completed_at": "2026-10-16T18:34:30.7135077+09:00",
+  "target_absent": true,
+  "deleted_game_files": 1212,
+  "deleted_game_bytes": 814086148,
+  "source_and_bps_rebuild": "PASS",
+  "remote_handoff_commit_before_delete": "3a53364dc5ab4e345a7aeb3c78fe6c2365adbbc3",
+  "archive_sha256": "9a147b15ee9d90bd53ee3c6fd8ab507bec9e8f714612c3ecbd56ad06ca2c7527",
+  "archive_record_count": 412,
+  "other_games_names_unchanged": true,
+  "isolated_rebuild_generated_rom_and_patches_removed": true,
+  "target": "Games/Ninja-kun - Majou no Bouken",
+  "archive": "work/cleanup_ninja_kun_20261016/Ninja_kun_work_records_20261016.zip",
+  "scope": "Only named game folder plus outputs of this isolated rebuild; original ROM must be supplied separately later."
+}
