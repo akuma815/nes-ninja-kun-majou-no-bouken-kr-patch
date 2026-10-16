@@ -1,0 +1,9 @@
+{
+  "id": "title-logo",
+  "original": "忍者くん",
+  "korean": "닌자군",
+  "scope": "visible title logo only",
+  "rendering": "large 닌자, smaller 군; white outline, green diagonal accents, black interiors",
+  "status": "release v1.0; user authorized title-only release on 2026-10-16; adopted native PNG unchanged",
+  "excluded_this_step": ["English player menu", "score labels", "copyright", "filename-only subtitle 魔城の冒険"]
+}

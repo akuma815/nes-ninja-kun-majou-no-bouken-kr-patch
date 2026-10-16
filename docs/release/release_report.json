@@ -1,0 +1,60 @@
+{
+  "version": "1.0",
+  "game": "Ninja-kun - Majou no Bouken (Japan), NES",
+  "source": {
+    "size": 24592,
+    "sha256": "7d4e1f61f8f7464d73a35c5118f59227dd7d7ddd6c3c2a62e42f5a0ac9477978",
+    "header_hex": "4e45531a010100000000000000000000"
+  },
+  "target": {
+    "size": 49168,
+    "sha256": "325109b789525c781cb72e78392768df8625fd55c04f78f329ece540993cf51d",
+    "mapper": 3,
+    "prg_size": 32768,
+    "chr_size": 16384
+  },
+  "patch": {
+    "filename": "Ninja_kun_Majou_no_Bouken_KR_v1.0.bps",
+    "format": "BPS1",
+    "sha256": "de06bb9d99b37a76ea7dc92a71fed1fc324bbc1668ba7aa5748734c3d839d2a0",
+    "size": 1548
+  },
+  "output_filename": "Ninja_kun_Majou_no_Bouken_KR_v1.0.nes",
+  "scope": [
+    "Korean title logo only",
+    "Original English menu/HUD/start/game-over/bonus retained"
+  ],
+  "human_decision": {
+    "date": "2026-10-16",
+    "source": "user instruction in this conversation",
+    "release_authorized": true,
+    "approved_artifact_sha256": "325109b789525c781cb72e78392768df8625fd55c04f78f329ece540993cf51d",
+    "user_play_report": "실제 플레이시 그 외 일본어는 발견하지 못했어",
+    "report_interpretation": "No other Japanese found during user play; not an assertion of full completion, hardware, or a source hash the user independently measured"
+  },
+  "agent_verification": {
+    "fresh_runtime": "Mesen 2.1.1 cold boot, start, input smoke, reset; 6 title samples outside-logo diff0; 4 non-title samples all pixels equal",
+    "build": "source identity, 512 CHR roundtrips, Expected Write coverage, protected banks, final graphics, BPS full result hash",
+    "hooks": "py65 fixed short sequence analysis and 8192 input states",
+    "japanese_survey": "512 source tiles reviewed and 146 source-ROM captures; natural and RAM-probe evidence separate"
+  },
+  "limits": [
+    "CNROM mapper3 / PRG32KiB / CHR16KiB expansion; original NROM board is not the target",
+    "Agent full playthrough, all late scenes, hardware, second emulator, and audio listening not performed",
+    "No claim that every unobserved composite or hidden message was exhaustively excluded"
+  ],
+  "screenshot": {
+    "filename": "title.png",
+    "kind": "actual Mesen capture, no crop/retouch/resize",
+    "source": "qa/title_kr_release_100/cold_boot_001/frame_0120.png",
+    "rom_sha256": "325109b789525c781cb72e78392768df8625fd55c04f78f329ece540993cf51d",
+    "sha256": "31ff359244b10c52fcd6a449565f2ec2a7ca43c221cdf16e5a0456f1f1e8a6ee"
+  },
+  "bps_copy_stats": {
+    "SourceRead": 4,
+    "TargetRead": 84,
+    "SourceCopy": 103,
+    "literal_bytes": 1078,
+    "source_referenced_bytes": 48090
+  }
+}

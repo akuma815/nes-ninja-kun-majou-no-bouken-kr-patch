@@ -1,0 +1,56 @@
+{
+  "build_id": "title_kr_release_100",
+  "input_policy": "release v1.0; title-only; user authorized 2026-10-16",
+  "text": "닌자군",
+  "asset": "assets/title/title_kr_ai_001_nes.png",
+  "asset_sha256": "e17ff5b1569a4eb9d42ad1498e688a01066a7b4f2eb44cf525408bf1bbe066cd",
+  "map_offset": 11798,
+  "map_width": 21,
+  "map_height": 10,
+  "logo_bounds": [
+    48,
+    49,
+    168,
+    80
+  ],
+  "blank_tile": 255,
+  "tile_first": 2,
+  "tile_last": 143,
+  "reserved_tiles": [
+    85
+  ],
+  "target_mapper": 3,
+  "target_prg_size": 32768,
+  "target_chr_size": 16384,
+  "helpers": [
+    {
+      "cpu_address": 49152,
+      "hex": "a9008d01208d20c060",
+      "meaning": "LDA #0; STA PPU mask; STA bank0 table; RTS"
+    },
+    {
+      "cpu_address": 49168,
+      "hex": "a9018d21c0a200a90960",
+      "meaning": "LDA #1; STA bank1 table; LDX #0; LDA #9; RTS"
+    },
+    {
+      "cpu_address": 49184,
+      "hex": "0001",
+      "meaning": "bus-conflict-safe bank table"
+    }
+  ],
+  "hooks": [
+    {
+      "offset": 1353,
+      "expected_hex": "a9008d0120",
+      "hex": "2000c0eaea",
+      "meaning": "screen clear: disable rendering then restore original graphics"
+    },
+    {
+      "offset": 7420,
+      "expected_hex": "a200a909",
+      "hex": "2010c0ea",
+      "meaning": "title map entry: select title graphics and replay original register initialization"
+    }
+  ]
+}

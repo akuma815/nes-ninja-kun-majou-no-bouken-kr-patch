@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "filename": "Ninja-kun - Majou no Bouken (Japan).nes",
+  "default_path": "original/rom/Ninja-kun - Majou no Bouken (Japan).nes",
+  "size": 24592,
+  "sha256": "7d4e1f61f8f7464d73a35c5118f59227dd7d7ddd6c3c2a62e42f5a0ac9477978",
+  "header_hex": "4e45531a010100000000000000000000",
+  "mapper": 0,
+  "prg_size": 16384,
+  "chr_size": 8192,
+  "trainer": false,
+  "mirroring": "horizontal"
+}

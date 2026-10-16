@@ -1,0 +1,10 @@
+*.nes
+*.ips
+original/
+build/
+patches/
+qa/
+workspace/
+__pycache__/
+*.pyc
+.env*

@@ -1,0 +1,10 @@
+{
+  "filename": "title.png",
+  "kind": "actual Mesen capture, no crop/retouch/resize",
+  "source": "qa/title_kr_release_100/cold_boot_001/frame_0120.png",
+  "rom_sha256": "325109b789525c781cb72e78392768df8625fd55c04f78f329ece540993cf51d",
+  "sha256": "31ff359244b10c52fcd6a449565f2ec2a7ca43c221cdf16e5a0456f1f1e8a6ee",
+  "width": 256,
+  "height": 240,
+  "public_path": "docs/images/title.png"
+}

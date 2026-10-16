@@ -1,0 +1,4 @@
+Pillow==12.3.0
+numpy==2.5.1
+# Only verify_hooks.py requires this package; install under workspace/pydeps.
+py65==1.2.0
