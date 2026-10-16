@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "source": "Fresh clone of the public GitHub repository; only original ROM injected from outside checkout",
+  "remote": "https://github.com/akuma815/nes-ninja-kun-majou-no-bouken-kr-patch.git",
+  "verified_source_commit": "bac24b0c77fcc28ce2f661b6fd8eec03541a37e2",
+  "python": "3.12.10",
+  "Pillow": "12.3.0",
+  "command": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build.ps1 -SourceRom <supported-original.nes>",
+  "source_sha256": "7d4e1f61f8f7464d73a35c5118f59227dd7d7ddd6c3c2a62e42f5a0ac9477978",
+  "source_size": 24592,
+  "target_size": 49168,
+  "target_sha256": "325109b789525c781cb72e78392768df8625fd55c04f78f329ece540993cf51d",
+  "bps_sha256": "de06bb9d99b37a76ea7dc92a71fed1fc324bbc1668ba7aa5748734c3d839d2a0",
+  "tracked_build_input_sha256": {
+    "assets/title/title_kr_ai_001_nes.png": "e17ff5b1569a4eb9d42ad1498e688a01066a7b4f2eb44cf525408bf1bbe066cd",
+    "assets/title/translation.json": "8682924be372cb12c288845b4826756477b59c08c04f3acc03523307c4aa65ca",
+    "config/release_v1_0.json": "397376770ad1cebfcd2840b26981bf3a259d20e99bcb53b66cf1383e5a7a3d6a",
+    "config/source.json": "9c48ffef5e84418767d56d1da4fbe292591648469b14b17c7b6250110d37e281",
+    "config/title.json": "397376770ad1cebfcd2840b26981bf3a259d20e99bcb53b66cf1383e5a7a3d6a",
+    "requirements.txt": "2f3b012750d0f5220bdfd9012a639456b31a85c06c5cbfb539fc46bf90c43bcc",
+    "scripts/bps_codec.py": "4e8abe45939c0879ca300d59ffacc3342a8d042324af4fcb2430dc4338ec5d32",
+    "scripts/build.ps1": "0dc76ae671016f3f1bb2969d6b646ef4554598e42b5b5c6806393bf4efab405d",
+    "scripts/build_title.py": "75cfcf394f59fa8401621bac340d1942977a38d6d00156f50b23fbb17518d08c",
+    "scripts/nes_graphics.py": "7a744b2a610a679031942e4d500836d2c2812eb49719f6506121c9ddcba188a4",
+    "scripts/release/apply.cmd": "bae3c04d1dacdd0d42df94f0ce2277b8a8c5840fb87aa1687ad14d68b81d0bb0",
+    "scripts/release/apply.ps1": "da6e789e091689fe0e5944457d48563bb0c10026f8d0830398bb0653450f2746"
+  },
+  "claims": "Build and BPS reproduction only; no new emulator/gameplay verification"
+}

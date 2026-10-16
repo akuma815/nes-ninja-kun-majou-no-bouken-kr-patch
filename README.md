@@ -4,6 +4,8 @@
 
 **[v1.0 패치 받기](https://github.com/akuma815/nes-ninja-kun-majou-no-bouken-kr-patch/releases/tag/v1.0)** · [ZIP 직접 받기](https://github.com/akuma815/nes-ninja-kun-majou-no-bouken-kr-patch/releases/download/v1.0/Ninja_kun_Majou_no_Bouken_KR_v1.0.zip) · [한글 패치 아카이브](https://akuma815.github.io/)
 
+[최신 인계·로컬 폴더 정리 및 재빌드 절차](docs/HANDOFF.md). 원본 ROM을 제외한 최종 빌드 필수 파일은 이 저장소에 있습니다.
+
 ![한글 타이틀 실제 실행 화면](docs/images/title.png)
 
 위 이미지는 배포 결과 ROM과 동일한 SHA-256에서 촬영한 Mesen 2.1.1 실제 타이틀 화면입니다. 자르거나 보정하지 않았습니다.
